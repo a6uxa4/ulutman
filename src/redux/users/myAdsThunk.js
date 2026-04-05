@@ -57,7 +57,7 @@ export const deleteSelectedAds = createAsyncThunk(
                data: selectedIds,
             },
          )
-         dispatch(getMyAds())
+         dispatch(getMyAds(userId))
          showToast('success', t('toast.favorite.deleteSuccess'))
          return data
       } catch (error) {

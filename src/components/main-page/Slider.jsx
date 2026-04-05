@@ -44,7 +44,7 @@ const Slider = () => {
          >
             {advertising.map(item => (
                <StyledSwiperSlide key={item.id}>
-                  <img src={item.paymentReceipt} alt="реклама" />
+                  <img src={item.imageFile} alt="реклама" />
                </StyledSwiperSlide>
             ))}
             <PrevArrow onClick={handlePrev}>

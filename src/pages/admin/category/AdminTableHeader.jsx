@@ -23,13 +23,11 @@ export const getAdminTableHeaders = (
                const userData = row.original
 
                const openModal = () => {
-                  value === 'ОЖИДАЕТ'
-                     ? handleOpenWaitingModal()
-                     : type === 'user'
-                       ? handleOpenWaitingModal()
-                       : undefined
+                  // передаем объект объявления напрямую в handleOpenWaitingModal
+                  handleOpenWaitingModal(userData)
 
-                  if (type === 'user') {
+                  // если setData нужен для других случаев, оставь его
+                  if (type === 'user' && setData) {
                      setData(userData)
                   }
                }

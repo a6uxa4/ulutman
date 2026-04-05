@@ -49,9 +49,9 @@ export const CategoryCard = ({ categories = [], handleToggleFavorite }) => {
                            {item.price} <SumIcon />
                         </Price>
                         <IconButton onClick={() => handleToggleFavorite(item)}>
-                           <GrayHeart
+                           {/* <GrayHeart
                               className={item.detailFavorite ? 'like-red' : ''}
-                           />
+                           /> */}
                         </IconButton>
                      </FirstBlock>
                      <RoomStyle>

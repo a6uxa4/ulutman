@@ -1,13 +1,30 @@
+import { useDispatch } from 'react-redux'
 import { styled } from '@mui/material'
 import { toast } from 'react-toastify'
+
 import Modal from '../../../components/UI/Modal'
 import Toastify from '../../../components/UI/Toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { activateAdminAd } from '../../../redux/thunks/adminAddThunk'
 
-export const WaitingModal = ({ onClose, isOpen }) => {
-   const notifySuccess = () => {
-      toast.success('Одобрено')
-      onClose()
+export const WaitingModal = ({ onClose, isOpen, adData }) => {
+   const dispatch = useDispatch()
+
+   const handleApprove = () => {
+      if (!adData?.id) return
+
+      dispatch(activateAdminAd(adData.id))
+         .unwrap()
+         .then(() => {
+            toast.success('Публикация активирована успешно!')
+         })
+         .catch(() => {
+            toast.error('Ошибка при активации')
+         })
+         .finally(() => {
+            onClose() // закрываем модалку
+            // очищаем выбранное объявление
+         })
    }
 
    const notifyError = () => {
@@ -21,7 +38,7 @@ export const WaitingModal = ({ onClose, isOpen }) => {
             <Container>
                <Title>Вы уверены, что хотите изменить?</Title>
                <div>
-                  <FirstButton onClick={notifySuccess}>Одобрить</FirstButton>
+                  <FirstButton onClick={handleApprove}>Одобрить</FirstButton>
                   <SecondButton onClick={notifyError}>Отклонить</SecondButton>
                </div>
             </Container>

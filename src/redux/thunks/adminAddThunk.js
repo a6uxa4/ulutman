@@ -30,6 +30,21 @@ export const deleteAdminAds = createAsyncThunk(
    },
 )
 
+export const activateAdminAd = createAsyncThunk(
+   'adminAdds/activateAd',
+   async (publicationId, { rejectWithValue }) => {
+      try {
+         const { data } = await axiosInstance.post(
+            `/manage/publishes/activate/${publicationId}`,
+         )
+
+         return data
+      } catch (error) {
+         return rejectWithValue(error.response?.data)
+      }
+   },
+)
+
 // export const getName = createAsyncThunk(
 //    'adds/getName',
 //    async (name, { rejectWithValue }) => {

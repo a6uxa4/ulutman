@@ -8,7 +8,7 @@ import WhatsappIcon from '../../assets/icons/whatsapp-icon.svg?react'
 const Footer = () => {
    const { t } = useTranslation()
    const navigate = useNavigate()
-   const phoneNumber = '79032631865'
+   const phoneNumber = '79651518004'
    const message = 'Здравствуйте!'
    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
    return (
@@ -49,7 +49,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                >
-                  +7 965 151-80-04
+                  +7965-151-80-04
                </a>
             </NumverTitle>
          </NumberContainer>

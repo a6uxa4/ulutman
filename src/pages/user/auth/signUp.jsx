@@ -102,7 +102,7 @@ const SignUp = ({ open, onClose, openSignIn }) => {
             ) : (
                <Button type="submit">{t('signUp.title')}</Button>
             )}
-            <GoogleAuth />
+            {/* <GoogleAuth /> */}
 
             <Typography display="flex" gap={1}>
                {t('signUp.account')}

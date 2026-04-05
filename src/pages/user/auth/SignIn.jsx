@@ -94,7 +94,7 @@ export const SignIn = ({ open, onClose, openSignUp, openForgotPassword }) => {
                <Button type="submit">{t('signIn.enter')}</Button>
             )}
             <Wrapper>
-               <GoogleAuth onClose={onClose} />
+               {/* <GoogleAuth onClose={onClose} /> */}
                <NavLink
                   style={{
                      color: '#7E52FF',
