@@ -9,7 +9,6 @@ import { styled, useMediaQuery } from '@mui/system'
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { CategoryCard } from '../UI/CategoryCard'
-import { AdvertisingCategory } from './AdvertisingCategory'
 import AnnouncementsSorter from '../AnnouncementsSorter'
 import { CardList } from '../UI/Card/CardList'
 import { categoryTab } from '../../utils/constants/main'
@@ -45,7 +44,6 @@ export const CategoryTab = () => {
    const dispatch = useDispatch()
 
    const { categories, isLoading } = useSelector(state => state.userCategories)
-   const { advertising } = useSelector(state => state.advertising)
 
    const { subCategory } = useParams()
 
@@ -78,24 +76,6 @@ export const CategoryTab = () => {
             }),
          )
       }
-   }
-
-   const deleteFavoriteMobile = id => {
-      dispatch(
-         removeFromFavorites({
-            id: id,
-            subCategory: subCategory.toLowerCase(),
-         }),
-      )
-   }
-
-   const handleAddFavoriteMobile = id => {
-      dispatch(
-         categoriesFavorite({
-            id: id,
-            subCategory: subCategory.toLowerCase(),
-         }),
-      )
    }
 
    const findSubCategory = categoryTab.find(
@@ -164,7 +144,7 @@ export const CategoryTab = () => {
 
             <TabPanelStyle value={value}>
                {isMobile ? (
-                  <>
+                  <div>
                      {categories.length > 0 ? (
                         <CardList cards={categories} />
                      ) : (
@@ -172,23 +152,16 @@ export const CategoryTab = () => {
                            <NoData />
                         </NoDataContainer>
                      )}
-                  </>
+                  </div>
                ) : (
-                  <>
+                  <div>
                      <MiniBlock>
                         <CategoryCard
                            categories={categories}
                            handleToggleFavorite={handleToggleFavorite}
                         />
                      </MiniBlock>
-                     {/* <WrapperAdvertising>
-                        {advertising?.map(image => (
-                           <div key={image.id}>
-                              <AdvertisingCategory image={image.imageFile} />
-                           </div>
-                        ))}
-                     </WrapperAdvertising> */}
-                  </>
+                  </div>
                )}
             </TabPanelStyle>
          </TabContext>
@@ -253,23 +226,11 @@ const BoxStyle = styled('div')(() => ({
    gap: '10px',
    alignItems: 'center',
 }))
-
-const WrapperAdvertising = styled('div')(({ theme }) => ({
+const WrapperAnnouncementsSorter = styled('div')({
    display: 'flex',
-   flexDirection: 'column',
-
-   gap: '24px',
-   [theme.breakpoints.down('md')]: {
-      width: '100%',
-      maxHeight: 'calc(100vh - 200px)',
-      overflowY: 'auto',
-   },
-   img: {
-      width: '100%',
-      height: '100%',
-      objectFit: 'cover',
-   },
-}))
+   justifyContent: 'end',
+   marginTop: '30px',
+})
 const MiniBlock = styled('div')(() => ({
    display: 'flex',
    flexDirection: 'column',

@@ -25,7 +25,7 @@ export const DeleteMyAdsModal = ({ userId, selectedIds }) => {
       <Modal open={isOpen} handleClose={handleCloseModal} variant="delete">
          <Container>
             <Title>{t('user.modal.title')}</Title>
-            {errorMessage && <ErrorText>{errorMessage}</ErrorText>}
+            {errorMessage && <ErrorText>{}</ErrorText>}
             <div>
                <FirstButton onClick={handleCloseModal}>
                   {t('user.modal.cancelBtn')}

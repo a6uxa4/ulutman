@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-nested-ternary */
-import { styled, useMediaQuery } from '@mui/material'
+import { styled } from '@mui/material'
 import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useTranslation } from 'react-i18next'
@@ -15,7 +15,7 @@ import {
 } from '../../redux/users/myAdsThunk'
 
 export const Ads = () => {
-   const isMobile = useMediaQuery(theme => theme.breakpoints.down('md'))
+   // const isMobile = useMediaQuery(theme => theme.breakpoints.down('md'))
    const [activeTab, setActiveTab] = useState('1')
    const dispatch = useDispatch()
    const { t } = useTranslation()
@@ -27,7 +27,7 @@ export const Ads = () => {
 
    const activeAdsCount = useSelector(state => state.myAds.activeAds.length)
 
-   const rejectedAdsCount = useSelector(state => state.myAds.rejectedAds.length)
+   // const rejectedAdsCount = useSelector(state => state.myAds.rejectedAds.length)
    const myAdsCount = useSelector(state => state.myAds.rejectedAds.length)
 
    const myAds = useSelector(state =>
@@ -73,53 +73,16 @@ export const Ads = () => {
                   />
                </div>
 
-               {isMobile ? (
-                  <DeleteAll
-                     onClick={handleDelete}
-                     style={{
-                        cursor:
-                           selectedIds.length > 0 ? 'pointer' : 'not-allowed',
-                        opacity: selectedIds.length > 0 ? 1 : 0.5,
-                     }}
-                  >
-                     <DeleteIcon />
-                     <p
-                        onClick={handleDelete}
-                        style={{
-                           cursor:
-                              selectedIds.length > 0
-                                 ? 'pointer'
-                                 : 'not-allowed',
-                           opacity: selectedIds.length > 0 ? 1 : 0.5,
-                        }}
-                     >
-                        {t('user.myAds.delete')}
-                     </p>
-                  </DeleteAll>
-               ) : (
-                  <DeleteAll
-                     onClick={handleDelete}
-                     style={{
-                        cursor:
-                           selectedIds.length > 0 ? 'pointer' : 'not-allowed',
-                        opacity: selectedIds.length > 0 ? 1 : 0.5,
-                     }}
-                  >
-                     <DeleteIcon />
-                     <p
-                        onClick={handleDelete}
-                        style={{
-                           cursor:
-                              selectedIds.length > 0
-                                 ? 'pointer'
-                                 : 'not-allowed',
-                           opacity: selectedIds.length > 0 ? 1 : 0.5,
-                        }}
-                     >
-                        {t('user.myAds.delete')}
-                     </p>
-                  </DeleteAll>
-               )}
+               <DeleteAll
+                  onClick={selectedIds.length > 0 ? handleDelete : undefined}
+                  style={{
+                     cursor: selectedIds.length > 0 ? 'pointer' : 'not-allowed',
+                     opacity: selectedIds.length > 0 ? 1 : 0.5,
+                  }}
+               >
+                  <DeleteIcon />
+                  <p>{t('user.myAds.delete')}</p>
+               </DeleteAll>
             </Block>
          </Container>
 
