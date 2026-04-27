@@ -1,0 +1,661 @@
+{
+   "admin": {
+      "sideBar": {
+         "dashboard": "Statistics",
+         "users": "Users",
+         "ads": "Ads",
+         "categories": "Categories",
+         "moderation": "Moderation",
+         "analitic": "Analytics",
+         "settings": "Settings",
+         "logOut": "Log out",
+         "advertising": "Advertising",
+         "mailing": "Email Campaigns",
+
+         "subLinks": {
+            "complaints": "Complaint and Violation Management",
+            "comments": "Comment and Message Moderation",
+            "images": "Image and Media File Review"
+         },
+
+         "changeLanguage": "Change Language"
+      },
+      "header": {
+         "inputLabel": "Search",
+         "select": {
+            "kg": "Kyrgyz",
+            "ru": "Russian",
+            "tj": "Tajik",
+            "uz": "Uzbek",
+            "en": "English",
+            "tr": "Turkish"
+         }
+      },
+      "dashboard": {
+         "title": "Statistics",
+         "popularCategory": "Popular Category",
+         "WORK": "Work",
+         "RENT": "Rentals",
+         "HOTEL": "Hotel",
+         "SERVICES": "Services",
+         "REAL_ESTATE": "Real Estate",
+         "AUTO": "Car",
+         "SELL": "For Sale"
+      },
+
+      "user": {
+         "layout": {
+            "header": {
+               "favorite": "Favorites",
+               "create-ad": "Post Ad",
+               "profile": "Profile",
+               "logOut": "Log out"
+            },
+            "footer": {
+               "work": "Work",
+               "rent": "Rent",
+               "hotel": "Hotel",
+               "services": "Services",
+               "real_estate": "Real Estate",
+               "auto": "Auto",
+               "sell": "Sell"
+            }
+         },
+         "home": {
+            "banner": {
+               "title": "Advertising and Services for Your Business",
+               "form": {
+                  "category": "Default",
+                  "search-publishes": "Search by Title",
+                  "select-metro": "Select Metro",
+                  "search-button": "Search",
+                  "category-menu": {
+                     "all_catogory": "All Categories",
+                     "WORK": "Work",
+                     "RENT": "Rent",
+                     "HOTEL": "Hotel",
+                     "SERVICES": "Services",
+                     "REAL_ESTATE": "Real Estate",
+                     "AUTO": "Auto",
+                     "SELL": "Sell"
+                  }
+               }
+            },
+            "categories": {
+               "WORK": "Work",
+               "RENT": "Rent",
+               "HOTEL": "Hotel",
+               "SERVICES": "Services",
+               "REAL_ESTATE": "Real Estate",
+               "AUTO": "Auto",
+               "SELL": "Sell"
+            },
+            "publishes": {
+               "title": "Listings Page",
+               "sortCategory": {
+                  "all-category": "All Categories",
+                  "newest": "Newest First",
+                  "cheapest": "Cheapest First",
+                  "expensive": "Most Expensive First"
+               },
+               "all-publishes-button": "View More"
+            },
+            "about": {
+               "title": "About Us",
+               "description1": "This is the perfect place for those looking for reliable listings for buying or renting residential or commercial real estate.",
+               "description2": "We offer a wide range of services and opportunities for advertising and other necessary services. Our website is suitable for all citizens of the CIS countries and neighboring regions."
+            }
+         },
+         "categories": {
+            "breadcrumbs": {
+               "main": "Home",
+               "path": {
+                  "work": "Work",
+                  "rent": "Rent",
+                  "hotel": "Hotel",
+                  "services": "Services",
+                  "real_estate": "Real Estate",
+                  "auto": "Auto",
+                  "sell": "Sell"
+               }
+            },
+            "search": {
+               "inputLabel": "Search by Title",
+               "searchButton": "Search"
+            }
+         },
+         "createAds": {
+            "title": "New Ad",
+            "breadcrumbs": {
+               "main": "Home",
+               "currentPage": "New Ad"
+            },
+            "information": {
+               "infoTitle1": "Publications that are prohibited from being posted on the site ULUTMAN.ru:",
+               "infoTitle2": "The cost of placing a banner per month:",
+               "infoList1": "Content that contradicts the law.",
+               "infoList2": "False information about products or services.",
+               "infoList3": "Copyright violations.",
+               "infoList4": " Violation of the rules may result in the deletion of the ad and the account being blocked.",
+               "infoList5": " For the Rent: 1000 rubles.",
+               "infoList6": " For the Hotel: 2000 rubles",
+               "infoList7": " Advertising banner visibility: from 50%."
+            },
+            "newCreateAdForm": {
+               "title": "Title",
+               "titlePlaceholder": "2-room apartment",
+               "phone": "Telephone",
+               "phonePlaceholder": "+7 xxx xxxxxxx",
+               "category": "Category",
+               "categoryButton": "Choose",
+               "uploadPhoto": {
+                  "uploadImage": "Main photo",
+                  "uploadTitle": "Add a photo",
+                  "uploadDescription": "To add an image, click or drag it."
+               },
+               "detailInfoButton": "Detailed information",
+               "detailInfo": {
+                  "title": "Detailed information",
+                  "room": "Number of rooms",
+                  "area": "Kitchen area",
+                  "totalArea": "Total area (sq.m)",
+                  "year": "Year of construction",
+                  "repair": "Repair",
+                  "heating": "Heating",
+                  "document": "Law establishing documents",
+                  "company": "Construction company"
+               },
+               "description": "Description",
+               "descriptionPlaceholder": "I sell an iPhone 12 with 128GB of memory in black. The phone is in excellent condition, was used carefully and was always carried in a case with a protective glass on the screen.",
+               "city": "City",
+               "cityPlaceholder": "Choose a city",
+               "listOfCities": {
+                  "city1": "Moscow",
+                  "city2": "Balashikha",
+                  "city3": "Podolsk",
+                  "city4": "Khimki",
+                  "city5": "Korolev",
+                  "city6": "Mytishchi",
+                  "city7": "Lyubertsy",
+                  "city8": "Krasnogorsk",
+                  "city9": "Elektrostal"
+               },
+               "metro": "Metro",
+               "metroPlaceholder": "Choose a subway",
+               "adress": "Address",
+               "adressPlaceholder": "1 Krylova Street",
+               "price": "Price",
+               "pricePlaceholder": "Contractual",
+               "bank": "Select a bank",
+               "bankPlaceholder": "No",
+               "cheque": "Attach the receipt",
+               "chequePlaceholder": "No",
+               "adButton": "To create"
+            },
+            "validationForm": {
+               "title": "The title of the publication is required",
+               "phoneNumberRequired": "Phone number is required",
+               "phoneNumberMatches": "Incorrect phone format",
+               "category": "The category is required",
+               "imagesMin": "The images field must contain at least 1 photo",
+               "imagesRequired": "Upload a photo",
+               "description": "The description is required",
+               "city": "The city is required",
+               "adress": "The address is required",
+               "metro": "Metro is required",
+               "priceRequired": "The price is mandatory",
+               "priceTypeError": "The price must be a number",
+               "bank": "The bank is required",
+               "paymentReceiptFileMin": "A receipt is required",
+               "paymentReceiptFileRequired": "A receipt is required"
+            },
+            "adsForm": {
+               "name": "Name",
+               "phone": "Phone",
+               "category": "Category",
+               "uploadPhoto": {
+                  "uploadLabel": "Upload Photo",
+                  "uploadTitle": "Add Photo",
+                  "uploadDescription": "Click or drag to upload your photo"
+               },
+               "description": "Ad Description",
+               "descriptionPlaceholder": "Hot Deals: 20% Discount for Premium Placement!",
+               "price": "Price",
+               "pricePlaceholder": "Negotiable",
+               "metro": "Metro",
+               "address": "Address",
+               "button": "Create"
+            },
+            "bank": {
+               "sber": "Sberbank",
+               "t": "TBank",
+               "btb": "VTB",
+               "alfa": "AlfaBank",
+               "pochta": "PochtaBank"
+            }
+         }
+      }
+   },
+
+   "user": {
+      "layout": {
+         "header": {
+            "favorite": "Favorites",
+            "create-ad": "Publish",
+            "profile": "Profile",
+            "logOut": "Exit",
+            "enter": "Enter",
+            "search": "Search",
+            "language": "Change the language"
+         },
+         "footer": {
+            "work": "Work",
+            "rent": "Rent",
+            "hotel": "Hotel",
+            "services": "Services",
+            "real_estate": "Real Estate",
+            "auto": "Auto",
+            "sell": "Sell"
+         }
+      },
+      "home": {
+         "banner": {
+            "title": "Advertising and Services for Your Business",
+            "form": {
+               "category": "Default",
+               "search-publishes": "Search by title",
+               "select-metro": "select metro",
+               "search-button": "Search",
+               "category-menu": {
+                  "all_catogory": "All categories",
+                  "WORK": "Work",
+                  "RENT": "Rent",
+                  "HOTEL": "Hotel",
+                  "SERVICES": "Services",
+                  "REAL_ESTATE": "Real Estate",
+                  "AUTO": "Auto",
+                  "SELL": "Sell"
+               }
+            }
+         },
+         "categories": {
+            "WORK": "Work",
+            "RENT": "Rent",
+            "HOTEL": "Hotel",
+            "SERVICES": "Services",
+            "REAL_ESTATE": "Real Estate",
+            "AUTO": "Auto",
+            "SELL": "Sell"
+         },
+         "publishes": {
+            "title": "Listings Page",
+            "all-publishes-button": "See More"
+         },
+         "about": {
+            "title": "About Us",
+            "site": "ulutman.ru",
+            "description1": "This is the perfect place for those looking for reliable listings for buying and renting apartments or commercial properties.",
+            "description2": "We offer a wide range of services and opportunities for advertising. Our site is open to migrants from Uzbekistan, Kyrgyzstan, and other countries, as well as Russian-speaking users looking for rental rooms, apartments, and other necessary services."
+         }
+      },
+      "categories": {
+         "breadcrumbs": {
+            "main": "Main",
+            "path": {
+               "work": "Work",
+               "rent": "Rent",
+               "hotel": "Hotel",
+               "services": "Services",
+               "real_estate": "Real Estate",
+               "auto": "Auto",
+               "sell": "Sell off"
+            }
+         },
+         "search": {
+            "inputLabel": "Name search",
+            "searchButton": "Search"
+         }
+      },
+      "createAds": {
+         "title": "New ad",
+         "breadcrumbs": {
+            "main": "Main",
+            "currentPage": "New Ad"
+         },
+         "information": {
+            "infoTitle1": "Publications that are prohibited from being posted on the site ULUTMAN.ru:",
+            "infoTitle2": "The cost of placing a banner per month:",
+            "infoList1": "Content that contradicts the law.",
+            "infoList2": "False information about products or services.",
+            "infoList3": "Copyright violations.",
+            "infoList4": "Violation of the rules may lead to the removal of the ad and account blocking.",
+            "infoList5": "For the Rental category: 1000 rubles.",
+            "infoList6": "For the Hotel category: 2000 rubles.",
+            "infoList7": "For the Real estate category: 2000 rubles.",
+            "infoList8": "Advertising banner visibility: from 50%.",
+            "infoList9": " The opportunity to raise the banner to the first position: every 24 hours."
+         },
+         "newCreateAdForm": {
+            "title": "Title",
+            "titlePlaceholder": "2-room apartment",
+            "phone": "Phone",
+            "phonePlaceholder": "+7 xxx xxxxxxx",
+            "category": "Category",
+            "categorybuttons": "Select",
+            "uploadPhoto": {
+               "uploadImage": "Main photo",
+               "uploadTitle": "Add a photo",
+               "uploadDescription": "To add an image, click or drag it"
+            },
+            "description": "Description",
+            "descriptionPlaceholder": "I'm selling an iPhone 12 with 128GB of memory in black. The phone is in excellent condition, was used carefully and was always carried in a case with a protective glass on the screen.",
+            "city": "City",
+            "cityPlaceholder": "Select a city",
+            "listOfCities": {
+               "city1": "Moscow",
+               "city2": "Balashikha",
+               "city3": "Podolsk",
+               "city4": "Khimki",
+               "city5": "Korolev",
+               "city6": "Mytishchi",
+               "city7": "Lyubertsy",
+               "city8": "Krasnogorsk",
+               "city9": "Elektrostal"
+            },
+            "metro": "Metro",
+            "metroPlaceholder": "Select metro",
+            "address": "Address",
+            "addressPlaceholder": "1 Krylova Street",
+            "price": "Price",
+            "pricePlaceholder": "Negotiable",
+            "bank": "Select a bank",
+            "bankPlaceholder": "No",
+            "cheque": "Attach the receipt",
+            "chequePlaceholder": "No",
+            "addbutton": "Create"
+         },
+         "validationForm": {
+            "title": "Product name sociable",
+            "phoneNumberRequired": "Phone connected",
+            "phoneNumberMatches": "Incorrect phone format",
+            "category": "Category sociable",
+            "imagesMin": "The image field must contain only 1 element",
+            "imagesRequired": "Upload a photo",
+            "description": "Description usually",
+            "city": "The city is connected",
+            "address": "Address specified",
+            "metro": "Metro communicates",
+            "priceRequired": "Price required",
+            "priceTypeError": "The price must be a number",
+            "bank": "The bank is connected",
+            "paymentReceiptFileMin": "The receipt is signed",
+            "paymentReceiptFileRequired": "The receipt is signed"
+         },
+
+         "adsForm": {
+            "name": "Name",
+            "phone": "Phone",
+            "category": "Category",
+            "uploadPhoto": {
+               "uploadLabel": "Upload a photo",
+               "uploadTitle": "Add a photo",
+               "uploadDescription": "To add a picture, click or drag it"
+            },
+            "description": "Mailing list Description",
+            "Placeholderdescription": "Hot promotions: 20% discount on premium placement: Place your ad in the top and attract more attention! The offer is valid until [Date].",
+            "price": "Price",
+            "pricePlaceholder": "Negotiable",
+            "metro": "Metro",
+            "address": "Address",
+            "button": "Create"
+         },
+         "bank": {
+            "sber": "Sberbank",
+            "t": "Bank",
+            "btb": "VTB",
+            "alfa": "Alfa Bank",
+            "pochta": "Postbank"
+         }
+      },
+      "advertising": {
+         "title": "Add Advertisement",
+         "back": "Back",
+         "breadcrumbs": {
+            "main": "Home",
+            "currentPage": "Add Advertisement"
+         },
+         "descriptions": {
+            "title1": "Banner placement cost: 1500 rubles per month",
+            "title2": "Banner visibility: from 50%",
+            "title3": "Ability to raise the banner: every 3 hours",
+            "title4": "First place visibility: 99%."
+         },
+         "bankLabel": "Bank",
+         "bankLabelPlaceholder": "Specify the bank to which the money was transferred",
+         "advertisingValidation": {
+            "bankError": "Please select a valid bank.",
+            "imageError": "Пожалуйста, загрузите изображение.",
+            "imageSizeError": "The image should be 285x407 or 564x246 in size.",
+            "receiptFileError": "Please upload the receipt.."
+         },
+         "uploadPhotoLabel": "Upload Photo",
+         "uploadPhotoTitle": "Add Photo",
+         "uploadPhotoDesc": "Click or drag to add a photo",
+         "advertisiingBtn": "Add"
+      },
+      "createModal": {
+         "title": "Add",
+         "addBtn": "Advertisement",
+         "advertisingBtn": "Advertising"
+      },
+      "profile": {
+         "name": "Name",
+         "namePlaceholder": "Ivan",
+         "email": "Email",
+         "emailPlaceholder": "example@gmail.com",
+         "editBtn": "Edit",
+         "cancelBtn": "Cancel",
+         "saveBtn": "Save",
+         "profileValidation": {
+            "username": "The name is required",
+            "emailAddress": "Incorrect email format",
+            "emailAddressRequired": "Email is required"
+         }
+      },
+      "myAds": {
+         "label1": "Actively",
+         "label2": "Rejected",
+         "label3": "My ads",
+         "myAdsMessage": "There is no data for the selected tab",
+         "delete": "Delete all"
+      },
+      "modal": {
+         "title": "Are you sure you want to delete it?",
+         "cancelBtn": "Cancel",
+         "deleteBtn": "Remove",
+         "phone": "Phone number"
+      },
+      "favorite": {
+         "title": "Selected ads",
+         "back": "Back",
+         "favoriteMessage": "There are no favorite ads",
+         "delete": "Delete all",
+
+         "breadcrumbs": {
+            "main": "Main",
+            "currentPage": "Selected ads"
+         }
+      },
+      "logOut": {
+         "title": "Do you really want to get out?",
+         "cancel": "Сancel",
+         "logOut": "Log out"
+      },
+      "categoryModal": {
+         "back": "Back",
+         "subcategory": "Select a subcategory",
+         "category": "Select a category",
+         "work": "Work",
+         "rent": "Rent",
+         "hotel": "Hotel",
+         "services": "Services",
+         "real_estate": "Realty",
+         "auto": "Auto",
+         "sell": "Sell off",
+         "subCategory": {
+            "partTime": "Part-time job",
+            "fullTime": "Full-time",
+            "IrentRoom": "I'm renting a room.",
+            "IrentBed": "I'm renting a bunk.",
+            "IrentApartment": "I'm renting an apartment.",
+            "rentRoom": "I'm renting a room",
+            "rentOffice": "I rent an office",
+            "dailyRent": "Daily rent",
+            "longTermRent": "Long-term lease",
+            "medical": "Medical services",
+            "legal": "Legal services",
+            "beauty": "Beauty",
+            "airticket": "Flight ticket",
+            "taxiAndTrack": "Taxis and Trucks",
+            "repair": "Repair",
+            "different": "Other",
+            "apartment": "Flat",
+            "house": "House",
+            "partOfLand": "Region",
+            "space": "Room",
+            "saleOfCar": "Car sale",
+            "rentOfCar": "Car rental",
+            "clothes": "Clothes",
+            "houseAppliances": "Appliances",
+            "electronics": "Electronics"
+         }
+      },
+      "myPage": {
+         "profile": "Profile",
+         "myAds": "My ads",
+         "back": "Back"
+      },
+      "detailInfo": {
+         "breadcrumbs": {
+            "main": "Main",
+            "back": "Back"
+         },
+         "price": "₽/month.",
+         "phone": "Show phone number",
+         "description": "Ad descriptions",
+         "similar": "Similar ads",
+         "btn": "See more",
+         "message": "No data available",
+         "hide": "Hide",
+         "readMore": "Read more"
+      },
+      "searchMain": {
+         "breadcrumbs": {
+            "main": "Main"
+         },
+         "inputPlaceholder": "Name search"
+      },
+      "recommendations": {
+         "breadcrumbs": {
+            "main": "Main"
+         },
+         "title": "The entire ad"
+      }
+   },
+   "global": {
+      "searchButton": "Search",
+      "all-category": "All Categories",
+      "sortCategory": {
+         "all": "All",
+         "newest": "Newest First",
+         "cheapest": "Cheapest First",
+         "expensive": "Most Expensive First"
+      }
+   },
+   "signIn": {
+      "enter": "Enter",
+      "emailRequired": "Email is required",
+      "passwordRequired": "A password is required",
+      "email": "Enter your email address",
+      "password": "Enter the password",
+      "forgot": " Forgot your password?",
+      "noAccount": " Don't you have an account?",
+      "create": "Create it",
+      "googleAuth": {
+         "btn2": "Log in using Google",
+         "btn1": "Authorization...",
+         "success": "Authorization via Google is successful!",
+         "error": "Error when logging in via Google:"
+      }
+   },
+   "signUp": {
+      "title": "Registration",
+      "enter": "Enter",
+      "account": "Do you have an account?",
+      "name": "Enter a name",
+      "email": "Enter your email address ",
+      "password": "Enter the password",
+      "confirmPassword": "Confirm the password",
+      "signUpValidation": {
+         "name": "The name must be at least 2 characters long.",
+         "nameRequired": "The name is required",
+         "email": "Incorrect email address",
+         "emailMatches": "The email must be a valid address",
+         "emailRequired": "Mail is required",
+         "password": "The password must be at least 6 characters long.",
+         "passwordRequired": "A password is required",
+         "passwordMatches": "Password must contain letters and numbers",
+         "confirmPassword": "Passwords must match",
+         "confirmPasswordRequired": "Passwords must match"
+      }
+   },
+   "forgotPassword": {
+      "title": "Password reset",
+      "label": "Email",
+      "placeholder": "Enter your email address",
+      "btn": "Get the code",
+      "error": "Email is required"
+   },
+   "resetPassword": {
+      "title": "Password reset",
+      "label1": "Code",
+      "label2": "Mail",
+      "label3": "New password",
+      "label4": "Confirm the password",
+      "placeholder1": "Code",
+      "placeholder2": "example@gmail.com",
+      "placeholder3": "Password",
+      "placeholder4": "Confirm the password",
+      "btn": "Continue",
+      "error": "Passwords must match"
+   },
+   "toast": {
+      "advertisingSuccess": "The ad was successfully created! Please wait for the ad to activate.",
+      "signIn": {
+         "success": "Successfully!",
+         "error": "Something went wrong."
+      },
+      "signUp": {
+         "success": "Log in to continue!"
+      },
+      "forgot": {
+         "success": "A code has been sent to the mail!",
+         "error": "Something went wrong."
+      },
+      "reset": {
+         "success": "The password has been successfully changed!",
+         "error": "Something went wrong."
+      },
+      "profile": {
+         "success": "Successfully updated!"
+      },
+      "favorite": {
+         "deleteAll": "Posts successfully deleted!",
+         "success": "The post was successfully added to favorites!",
+         "deleteSuccess": "The post was successfully deleted!"
+      },
+      "publishes": {
+         "success": "The ad was created successfully!"
+      }
+   }
+}

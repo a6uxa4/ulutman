@@ -1,0 +1,499 @@
+{
+   "admin": {
+      "sideBar": {
+         "dashboard": "İstatistikler",
+         "users": "Kullanıcılar",
+         "ads": "İlanlar",
+         "categories": "Kategoriler",
+         "moderation": "Moderasyon",
+         "analitic": "Analitik",
+         "settings": "Ayarlar",
+         "logOut": "Çıkış Yap",
+         "advertising": "Reklam",
+         "mailing": "E-posta Bültenleri",
+
+         "subLinks": {
+            "complaints": "Şikayetler ve İhlallerin Yönetimi",
+            "comments": "Yorumlar ve Mesajların Moderasyonu",
+            "images": "Görüntü ve Medya Dosyalarının İncelenmesi"
+         },
+
+         "changeLanguage": "Dili Değiştir"
+      },
+      "header": {
+         "inputLabel": "Arama",
+         "select": {
+            "kg": "Kırgızca",
+            "ru": "Rusça",
+            "tj": "Tacikçe",
+            "uz": "Özbekçe",
+            "en": "İngilizce",
+            "tr": "Türkçe"
+         }
+      },
+      "dashboard": {
+         "title": "İstatistikler",
+         "popularCategory": "Popüler Kategori",
+         "WORK": "İş",
+         "RENT": "Kiralık",
+         "HOTEL": "Otel",
+         "SERVICES": "Hizmetler",
+         "REAL_ESTATE": "Gayrimenkul",
+         "AUTO": "Araba",
+         "SELL": "Satılık"
+      },
+
+      "users": {
+         "title": "Kullanıcı Yönetimi",
+         "table": {
+            "columns": {
+               "name": "İSİM",
+               "email": "E-POSTA",
+               "role": "ROL",
+               "dateOfRegistration": "KAYIT TARİHİ",
+               "status": "DURUM"
+            },
+            "statuses": {
+               "АКТИВНЫЙ": "AKTİF",
+               "ЗАБЛОКИРОВАН": "BLOKELİ"
+            },
+            "roles": {
+               "USER": "Kullanıcı",
+               "ADMIN": "Admin"
+            }
+         }
+      }
+   },
+
+   "user": {
+      "layout": {
+         "header": {
+            "favorite": "Favoriler",
+            "create-ad": "İlan Ver",
+            "profile": "Profil",
+            "logOut": "Çıkış Yap",
+            "enter": "Ворид кунед",
+            "search": "Ҷустуҷӯ",
+            "language": "Иваз кардани забон"
+         },
+         "footer": {
+            "work": "İş",
+            "rent": "Kiralık",
+            "hotel": "Otel",
+            "services": "Hizmetler",
+            "real_estate": "Emlak",
+            "auto": "Otomobil",
+            "sell": "Satılık"
+         }
+      },
+      "home": {
+         "banner": {
+            "title": "İşiniz İçin Reklam ve Hizmetler",
+            "form": {
+               "category": "Varsayılan",
+               "search-publishes": "Başlığa Göre Ara",
+               "select-metro": "Metro Seç",
+               "search-button": "Ara",
+               "category-menu": {
+                  "all_catogory": "Tüm Kategoriler",
+                  "WORK": "İş",
+                  "RENT": "Kiralık",
+                  "HOTEL": "Otel",
+                  "SERVICES": "Hizmetler",
+                  "REAL_ESTATE": "Emlak",
+                  "AUTO": "Otomobil",
+                  "SELL": "Satılık"
+               }
+            }
+         },
+         "categories": {
+            "WORK": "İş",
+            "RENT": "Kiralık",
+            "HOTEL": "Otel",
+            "SERVICES": "Hizmetler",
+            "REAL_ESTATE": "Emlak",
+            "AUTO": "Otomobil",
+            "SELL": "Satılık"
+         },
+         "publishes": {
+            "title": "İlan Sayfası",
+            "all-publishes-button": "Daha Fazla Gör"
+         },
+         "about": {
+            "title": "Hakkımızda",
+            "description1": "Burası, konut veya ticari gayrimenkul satın almak veya kiralamak için güvenilir ilanlar arayanlar için mükemmel bir yerdir.",
+            "description2": "Reklam yerleştirme ve diğer gerekli hizmetler için geniş olanaklar sunuyoruz. Web sitemiz, BDT ülkeleri ve yakın çevredeki tüm vatandaşlar için uygundur."
+         }
+      },
+      "categories": {
+         "breadcrumbs": {
+            "main": "Ana Sayfa",
+            "path": {
+               "work": "İş",
+               "rent": "Kiralık",
+               "hotel": "Otel",
+               "services": "Hizmetler",
+               "real_estate": "Emlak",
+               "auto": "Otomobil",
+               "sell": "Satılık"
+            }
+         },
+         "search": {
+            "inputLabel": "Başlığa Göre Ara",
+            "searchButton": "Ara"
+         }
+      },
+      "createAds": {
+         "title": "Yeni İlan",
+         "breadcrumbs": {
+            "main": "Ana Sayfa",
+            "currentPage": "Yeni İlan"
+         },
+         "information": {
+            "infoTitle1": "Sitede yayınlanması yasak olan yayınlar ULUTMAN.ru:",
+            "infoTitle2": "Aylık afiş yerleştirme maliyeti:",
+            "infoList1": "Yasalara aykırı içerik.",
+            "infoList2": "Mal veya hizmetler hakkında yanlış bilgiler.",
+            "infoList3": "Telif hakkı ihlalleri.",
+            "infoList4": " Kuralların ihlali, reklamın silinmesine ve hesabın askıya alınmasına neden olabilir.",
+            "infoList5": " Kategori için Kiralama: 1000 ruble.",
+            "infoList6": " Kategori için Otel: 2000 ruble.",
+            "infoList7": " Kategori için Gayrimenkul : 2000 ruble.",
+            "infoList8": " Reklam afişinin görünürlüğü:% 50'den itibaren.",
+            "infoList9": " Afişi ilk konuma kaldırma yeteneği: her 24 saatte bir."
+         },
+         "newCreateAdForm": {
+            "title": "Ad",
+            "titlePlaceholder": "2 yatak odalı daire",
+            "phone": "Telefon",
+            "phonePlaceholder": "+7 xxx xxxxxxx",
+            "category": "Kategori",
+            "categoryButton": "Seçmek",
+            "uploadPhoto": {
+               "uploadImage": "Ana fotoğraf",
+               "uploadTitle": "Fotoğraf ekleyin",
+               "uploadDescription": "Bir resim eklemek için üzerine tıklayın veya sürükleyin"
+            },
+            "detailInfoButton": "Detaylı bilgi",
+            "detailInfo": {
+               "title": "ДDetaylı bilgi",
+               "room": "Oda sayısı",
+               "area": "Mutfak alanı",
+               "totalArea": "Toplam alan (m2)",
+               "year": "Yapım yılı",
+               "repair": "Onarım",
+               "heating": "Isıtma",
+               "document": "Belgeleri belirleyen haklar",
+               "company": "İnşaat şirketi"
+            },
+            "description": "Açıklama",
+            "descriptionPlaceholder": "Siyah renkte 128GB depolama alanına sahip bir iPhone 12 satıyorum. Telefon mükemmel durumda, özenle kullanılmış ve her zaman ekranda koruyucu cam bulunan bir kılıfta giyilmiştir.",
+            "city": "Şehir",
+            "cityPlaceholder": "Bir şehir seçin",
+            "listOfCities": {
+               "city1": "Moskova",
+               "city2": "Balashikha",
+               "city3": "Podolsk",
+               "city4": "Khimki",
+               "city5": "Kraliçe",
+               "city6": "Pislikler",
+               "city7": "Lyubertsy",
+               "city8": "Krasnogorsk",
+               "city9": "Elektrik tesisatı"
+            },
+            "metro": "Metro",
+            "metroPlaceholder": "Metroyu seçin",
+            "adress": "Adres",
+            "adressPlaceholder": "Krylova caddesi ev 1",
+            "price": "Fiyat",
+            "pricePlaceholder": "Sözleşmeye dayalı",
+            "bank": "Bankayı seçin",
+            "bankPlaceholder": "Hayır",
+            "cheque": "Çeki takın",
+            "chequePlaceholder": "Hayır",
+            "adButton": "Oluşturmak"
+         },
+         "validationForm": {
+            "title": "Yayın başlığı zorunludur",
+            "phoneNumberRequired": "Telefon gereklidir",
+            "phoneNumberMatches": "Yanlış telefon formatı",
+            "category": "Kategori zorunludur",
+            "imagesMin": "Görseller alanı en az bir fotoğraf içermelidir",
+            "imagesRequired": "Fotoğrafı yükleyin",
+            "description": "Açıklama zorunludur",
+            "city": "Şehir zorunludur",
+            "adress": "Adres zorunludur",
+            "metro": "Metro zorunludur",
+            "priceRequired": "Fiyat zorunludur",
+            "priceTypeError": "Fiyat bir sayı olmalıdır",
+            "bank": "Banka zorunludur",
+            "paymentReceiptFileMin": "Çek zorunludur",
+            "paymentReceiptFileRequired": "Çek zorunludur"
+         },
+
+         "adsForm": {
+            "name": "Ad",
+            "phone": "Telefon",
+            "category": "Kategori",
+            "uploadPhoto": {
+               "uploadLabel": "Fotoğraf Yükle",
+               "uploadTitle": "Fotoğraf Ekle",
+               "uploadDescription": "Fotoğraf yüklemek için tıklayın veya sürükleyin"
+            },
+            "description": "İlan Açıklaması",
+            "descriptionPlaceholder": "Hızlı Teklif: Premium yerleştirme için %20 indirim!",
+            "price": "Fiyat",
+            "pricePlaceholder": "Pazarlık Edilebilir",
+            "metro": "Metro",
+            "address": "Adres",
+            "button": "Oluştur"
+         },
+         "bank": {
+            "sber": "Sberbank",
+            "t": "ТBank",
+            "btb": "VTB",
+            "alfa": "Alfa Bankası",
+            "pochta": "Posta Bankası"
+         }
+      },
+      "advertising": {
+         "title": "Reklamayı Ekle",
+         "back": "Geri",
+         "breadcrumbs": {
+            "main": "Ana Sayfa",
+            "currentPage": "Reklam Ekle"
+         },
+         "descriptions": {
+            "title1": "Banner yerleştirme maliyeti: ayda 1500 ruble",
+            "title2": "Banner görünürlüğü: %50'den itibaren",
+            "title3": "Banner yükseltme olanağı: her 3 saatte bir",
+            "title4": "Birinci sıra görünürlüğü: %99."
+         },
+         "bankLabel": "Banka ",
+         "bankLabelPlaceholder": "Paranın aktarıldığı bankayı belirtin.",
+         "advertisingValidation": {
+            "bankError": "Lütfen geçerli bir banka seçin.",
+            "imageError": "Lütfen resmi yükleyin.",
+            "imageSizeError": "Görüntünün boyutu 285x407 veya 564x246 olmalıdır.",
+            "receiptFileError": "Lütfen çeki yükleyin."
+         },
+         "uploadPhotoLabel": "Fotoğraf Yükleyin",
+         "uploadPhotoTitle": "Fotoğraf Ekleyin",
+         "uploadPhotoDesc": "Fotoğraf eklemek için tıklayın veya sürükleyin",
+         "advertisiingBtn": "Ekle"
+      },
+      "createModal": {
+         "title": "Eklemek",
+         "addBtn": "Bildirimler",
+         "advertisingBtn": "Reklam"
+      },
+      "profile": {
+         "name": "Ad",
+         "namePlaceholder": "Ivan",
+         "email": "E-posta",
+         "emailPlaceholder": "example@gmail.com",
+         "editBtn": "Düzeltme",
+         "cancelBtn": "İptal et",
+         "saveBtn": "Kaydetmek",
+         "profileValidation": {
+            "username": "İsim zorunludur",
+            "emailAddress": "Yanlış e-posta formatı",
+            "emailAddressRequired": "E-posta gereklidir"
+         }
+      },
+      "myAds": {
+         "label1": "Aktif",
+         "label2": "Reddedildi",
+         "label3": "Reklamlarım",
+         "myAdsMessage": "Seçilen sekme için veri yok",
+         "delete": "Tümünü sil"
+      },
+      "modal": {
+         "title": "Silmek istediğinize emin misiniz?",
+         "cancelBtn": "İptal et",
+         "deleteBtn": "Kaldırmak",
+         "phone": "Telefon numarası"
+      },
+      "favorite": {
+         "title": "Öne çıkan Reklamlar",
+         "back": "Geri",
+         "favoriteMessage": "Öne çıkan reklam yok",
+         "delete": "Tümünü sil",
+         "breadcrumbs": {
+            "main": "Ana",
+            "currentPage": "Öne çıkan Reklamlar"
+         }
+      },
+      "logOut": {
+         "title": "Gerçekten dışarı çıkmak istiyor musunuz?",
+         "cancel": "İptal",
+         "logOut": "Çıkmak"
+      },
+      "categoryModal": {
+         "back": "Geri",
+         "subcategory": "Alt Kategori Seç",
+         "category": "Kategori Seç",
+         "work": "Çalışma",
+         "rent": "Kira",
+         "hotel": "Otel",
+         "services": "Hizmetler",
+         "real_estate": "Gayrimenkul",
+         "auto": "Otomatik",
+         "sell": "Satacağım",
+         "subCategory": {
+            "partTime": "Yarı zamanlı iş",
+            "fullTime": "Tam zamanlı iş",
+            "IrentRoom": "Odayı kiralıyorum",
+            "IrentBed": "Yatağımı kiralıyorum",
+            "IrentApartment": "Ben bir daire kiralıyorum",
+            "rentRoom": "Bir oda kiralıyorum",
+            "rentOffice": "Ofis kiralıyorum",
+            "dailyRent": "Günlük kiralama",
+            "longTermRent": "Uzun süreli kiralama",
+            "medical": "Sağlık hizmetleri",
+            "legal": "Hukuki Hizmetler",
+            "beauty": "Güzellik",
+            "airticket": "Uçak bileti",
+            "taxiAndTrack": "Taksiler ve Yük Gemileri",
+            "repair": "Onarım",
+            "different": "Diğer",
+            "apartment": "Daire",
+            "house": "Ev",
+            "partOfLand": "Alan",
+            "space": "Konut",
+            "saleOfCar": "Makine satışı",
+            "rentOfCar": "Araba Kiralama",
+            "clothes": "Elbise",
+            "houseAppliances": "Ev aletleri",
+            "electronics": "Elektronik"
+         }
+      },
+      "myPage": {
+         "profile": "Profil",
+         "myAds": "Duyurularım",
+         "back": "Geri"
+      },
+      "detailInfo": {
+         "breadcrumbs": {
+            "main": "Ana",
+            "back": "Geri"
+         },
+         "price": "₽/aylık.",
+         "phone": "Telefonu göster",
+         "description": "Reklam açıklamaları",
+         "similar": "İlgili duyurular",
+         "btn": "Daha fazlasını gör",
+         "message": "Veri yok",
+         "hide": "Gizlemek",
+         "readMore": "Devamını oku"
+      },
+      "searchMain": {
+         "breadcrumbs": {
+            "main": "Ana"
+         },
+         "inputPlaceholder": "Ada göre ara"
+      },
+      "recommendations": {
+         "breadcrumbs": {
+            "main": "Ana"
+         },
+         "title": "Tüm duyurular"
+      }
+   },
+   "global": {
+      "searchButton": "Ara",
+      "all-category": "Tüm Kategoriler",
+      "sortCategory": {
+         "all": "Tüm",
+         "newest": "En Yeniden Eskiye",
+         "cheapest": "En Ucuzdan Başla",
+         "expensive": "En Pahalıdan Başla"
+      }
+   },
+   "signIn": {
+      "enter": "Girmek",
+      "emailRequired": "E-posta gereklidir",
+      "passwordRequired": "Şifre zorunludur",
+      "email": "E-postanızı girin",
+      "password": "Şifreyi girin",
+      "forgot": "Şifrenizi mi unuttunuz?",
+      "noAccount": " Hesabınız yok mu?",
+      "create": "Onu yaratın",
+      "googleAuth": {
+         "btn2": "Google ile giriş yapın",
+         "btn1": "Yetkilendirme...",
+         "success": "Google üzerinden yetkilendirme başarıyla yapıldı!",
+         "error": "Google üzerinden yetkilendirmede hata oluştu:"
+      }
+   },
+   "signUp": {
+      "title": "Kayıt",
+      "enter": "Girmek",
+      "account": "Hesabınız var mı?",
+      "name": "Adı girin",
+      "email": "E-postanızı girin ",
+      "password": "Şifreyi girin ",
+      "confirmPassword": "Şifreyi doğrulayın",
+      "signUpValidation": {
+         "name": "Ad 2 karakterden kısa olmamalıdır",
+         "nameRequired": "İsim zorunludur",
+         "email": "Yanlış e-posta",
+         "emailMatches": "E-posta adresi doğru adres olmalıdır",
+         "emailRequired": "Posta zorunludur",
+         "password": "Şifre 6 karakterden kısa olmamalıdır",
+         "passwordRequired": "Şifre zorunludur",
+         "passwordMatches": "Şifre harf ve rakam içermelidir",
+         "confirmPassword": "Şifreler eşleşmelidir",
+         "confirmPasswordRequired": "Şifreler eşleşmelidir"
+      }
+   },
+   "forgotPassword": {
+      "title": "Şifreyi sıfırla",
+      "label": "Posta",
+      "placeholder": "E-postanızı girin",
+      "btn": "Kodu al",
+      "error": "E-posta gereklidir"
+   },
+   "resetPassword": {
+      "title": "Şifreyi sıfırla",
+      "label1": "Kod",
+      "label2": "Posta",
+      "label3": "Yeni şifre",
+      "label4": "Şifreyi doğrulayın",
+      "placeholder1": "Kod",
+      "placeholder2": "example@gmail.com",
+      "placeholder3": "Parola",
+      "placeholder4": "Şifreyi doğrulayın",
+      "btn": "Devam et",
+      "error": "Şifreler eşleşmelidir"
+   },
+   "toast": {
+      "advertisingSuccess": "Reklamlar başarıyla oluşturuldu! Lütfen reklamın etkinleşmesini bekleyin.",
+      "signIn": {
+         "success": "Başarılı!!",
+         "error": "Bir şeyler ters gitti"
+      },
+      "signUp": {
+         "success": "Devam etmek için giriş yapın"
+      },
+      "forgot": {
+         "success": "Postaya bir kod gönderildi!",
+         "error": "Bir şeyler ters gitti"
+      },
+      "reset": {
+         "success": "Пароль успешно изменён!",
+         "error": "Bir şeyler ters gitti"
+      },
+      "profile": {
+         "success": "Başarıyla güncellendi!"
+      },
+      "favorite": {
+         "deleteAll": "Yayınlar başarıyla silindi!",
+         "success": "Yayın favorilerinize başarıyla eklendi!",
+         "deleteSuccess": "Yayın başarıyla silindi!"
+      },
+      "publishes": {
+         "success": "Reklam başarıyla oluşturuldu!"
+      }
+   }
+}

@@ -1,0 +1,499 @@
+{
+   "admin": {
+      "sideBar": {
+         "dashboard": "Statistika",
+         "users": "Foydalanuvchilar",
+         "ads": "E'lonlar",
+         "categories": "Kategoriyalar",
+         "moderation": "Moderatsiya",
+         "analitic": "Analitika",
+         "settings": "Sozlamalar",
+         "logOut": "Chiqish",
+         "advertising": "Reklama",
+         "mailing": "Elektron pochta tarqatmalari",
+
+         "subLinks": {
+            "complaints": "Shikoyatlar va qonunbuzarliklarni boshqarish",
+            "comments": "Sharhlar va xabarlarni moderatsiya qilish",
+            "images": "Rasmlar va media fayllarni tekshirish"
+         },
+
+         "changeLanguage": "Tilni oʻzgartirish"
+      },
+      "header": {
+         "inputLabel": "Qidiruv",
+         "select": {
+            "kg": "Qirgʻizcha",
+            "ru": "Ruscha",
+            "tj": "Tojikcha",
+            "uz": "Oʻzbekcha",
+            "en": "Inglizcha"
+         }
+      },
+      "dashboard": {
+         "title": "Statistika",
+         "popularCategory": "Kategoriya ommaviyligi",
+         "WORK": "Ish",
+         "RENT": "Ijara",
+         "HOTEL": "Mehmonxona",
+         "SERVICES": "Xizmatlar",
+         "REAL_ESTATE": "Ko‘chmas mulk",
+         "AUTO": "Avtomobil",
+         "SELL": "Sotaman"
+      },
+
+      "users": {
+         "title": "Foydalanuvchilarni boshqarish",
+         "table": {
+            "columns": {
+               "name": "ISM",
+               "email": "ELEKTRON POCHTA",
+               "role": "ROL",
+               "dateOfRegistration": "RO'YXATDAN O'TGAN SANASI",
+               "status": "HOLATI"
+            },
+            "statuses": {
+               "АКТИВНЫЙ": "FAOL",
+               "ЗАБЛОКИРОВАН": "BLOKLANGAN"
+            },
+            "roles": {
+               "USER": "Foydalanuvchi",
+               "ADMIN": "Admin"
+            }
+         }
+      }
+   },
+
+   "user": {
+      "layout": {
+         "header": {
+            "favorite": "Sevimlilar",
+            "create-ad": "E'lon berish",
+            "profile": "Profil",
+            "logOut": "Chiqish",
+            "enter": "Kirish",
+            "search": "Qidiruv",
+            "language": "Tilni o'zgartiring"
+         },
+         "footer": {
+            "work": "Ish",
+            "rent": "Ijaraga",
+            "hotel": "Mehmonxona",
+            "services": "Xizmatlar",
+            "real_estate": "Ko'chmas mulk",
+            "auto": "Avtomobil",
+            "sell": "Sotuv"
+         }
+      },
+      "home": {
+         "banner": {
+            "title": "Biznesingiz uchun reklama va xizmatlar",
+            "form": {
+               "category": "Standart",
+               "search-publishes": "Nomi bo'yicha qidirish",
+               "select-metro": "Metro tanlash",
+               "search-button": "Qidiruv",
+               "category-menu": {
+                  "all_catogory": "Barcha kategoriyalar",
+                  "WORK": "Ish",
+                  "RENT": "Ijaraga",
+                  "HOTEL": "Mehmonxona",
+                  "SERVICES": "Xizmatlar",
+                  "REAL_ESTATE": "Ko'chmas mulk",
+                  "AUTO": "Avtomobil",
+                  "SELL": "Sotuv"
+               }
+            }
+         },
+         "categories": {
+            "WORK": "Ish",
+            "RENT": "Ijaraga",
+            "HOTEL": "Mehmonxona",
+            "SERVICES": "Xizmatlar",
+            "REAL_ESTATE": "Ko'chmas mulk",
+            "AUTO": "Avtomobil",
+            "SELL": "Sotuv"
+         },
+         "publishes": {
+            "title": "E'lonlar sahifasi",
+            "all-publishes-button": "Ko'proq ko'rish"
+         },
+         "about": {
+            "title": "Biz haqimizda",
+            "description1": "Bu yer uy-joy yoki tijorat ko‘chmas mulkini sotib olish yoki ijaraga olish uchun ishonchli e’lonlarni izlayotganlar uchun eng yaxshi joydir.",
+            "description2": "Biz reklama joylashtirish va boshqa zarur xizmatlar uchun keng imkoniyatlarni taklif qilamiz. Bizning veb-saytimiz MDH mamlakatlari va yaqin xorijiy davlatlarning barcha fuqarolari uchun mos keladi."
+         }
+      },
+      "categories": {
+         "breadcrumbs": {
+            "main": "Bosh sahifa",
+            "path": {
+               "work": "Ish",
+               "rent": "Ijaraga",
+               "hotel": "Mehmonxona",
+               "services": "Xizmatlar",
+               "real_estate": "Ko'chmas mulk",
+               "auto": "Avtomobil",
+               "sell": "Sotuv"
+            }
+         },
+         "search": {
+            "inputLabel": "Nomi bo'yicha qidirish",
+            "searchButton": "Qidiruv"
+         }
+      },
+      "createAds": {
+         "title": "Yangi e'lon",
+         "breadcrumbs": {
+            "main": "Bosh sahifa",
+            "currentPage": "Yangi e'lon"
+         },
+         "information": {
+            "infoTitle1": "Saytda joylashtirish taqiqlangan nashrlar ULUTMAN.ru:",
+            "infoTitle2": "Bir oy davomida bannerni joylashtirish narxi:",
+            "infoList1": "Qonunga zid tarkib.",
+            "infoList2": "Tovarlar yoki xizmatlar haqida yolg'on ma'lumot.",
+            "infoList3": "Mualliflik huquqining buzilishi.",
+            "infoList4": " Qoidalarni buzish reklamani o'chirishga va hisobni blokirovka qilishga olib kelishi mumkin.",
+            "infoList5": " Ijara va toifasi uchun: 1000 rubl.",
+            "infoList6": " Mehmonxona toifasi uchun: 2000 rubl.",
+            "infoList7": " Ko'chmas mulk toifasi uchun: 2000 rubl.",
+            "infoList8": " Reklama bannerining ko'rinishi: 50% dan.",
+            "infoList9": " Bannerni birinchi o'ringa ko'tarish qobiliyati: har 24 soatda."
+         },
+         "newCreateAdForm": {
+            "title": "Nomi",
+            "titlePlaceholder": "2 xonali kvartira",
+            "phone": "Telefon",
+            "phonePlaceholder": "+7 xxx xxxxxxx",
+            "category": "Kategoriya",
+            "categoryButton": "Tanlang",
+            "uploadPhoto": {
+               "uploadImage": "Asosiy fotosurat",
+               "uploadTitle": "Fotosurat qo'shing",
+               "uploadDescription": "Rasm qo'shish uchun uni bosing yoki torting"
+            },
+            "detailInfoButton": "Batafsil ma'lumot",
+            "detailInfo": {
+               "title": "Batafsil ma'lumot",
+               "room": "Xonalar soni",
+               "area": "Oshxona maydoni",
+               "totalArea": "Umumiy maydoni (kv. m)",
+               "year": "Qurilish yili",
+               "repair": "Ta'mirlash",
+               "heating": "Isitish",
+               "document": "Hujjatlarni o'rnatish huquqlari",
+               "company": "Qurilish kompaniyasi"
+            },
+            "description": "Tavsif",
+            "descriptionPlaceholder": "Men iPhone 12-ni 128GB xotira hajmi bilan qora rangda sotaman. Telefon juda yaxshi holatda, ehtiyotkorlik bilan ishlatilgan va har doim ekranda himoya oynasi bo'lgan holda taqilgan.",
+            "city": "Shahar",
+            "cityPlaceholder": "Shaharni tanlang",
+            "listOfCities": {
+               "city1": "Moskva shahri",
+               "city2": "Balashixa",
+               "city3": "Podolsk shahri",
+               "city4": "Ximki",
+               "city5": "Qirolichalar",
+               "city6": "Mytishchi",
+               "city7": "Luberliklar",
+               "city8": "Krasnogorsk shahri",
+               "city9": "Elektrostal"
+            },
+            "metro": "Metro",
+            "metroPlaceholder": "Metroni tanlang",
+            "adress": "Manzil",
+            "adressPlaceholder": "Krilov ko'chasi 1-uy",
+            "price": "Narxi",
+            "pricePlaceholder": "Shartnomaviy",
+            "bank": "Bankni tanlang",
+            "bankPlaceholder": "Yo'q",
+            "cheque": "Chekni ilova qiling",
+            "chequePlaceholder": "Yo'q",
+            "adButton": "Yaratish"
+         },
+
+         "validationForm": {
+            "title": "Eʼlon nomi majburiy",
+            "phoneNumberRequired": "Telefon talab qilinadi",
+            "phoneNumberMatches": "Noto'g'ri telefon formati",
+            "category": "Kategoriya talab qilinadi",
+            "imagesMin": "Rasmlar maydoni kamida bitta rasmni o‘z ichiga olishi kerak",
+            "imagesRequired": "Fotosuratni yuklang",
+            "description": "Ta'rif majburiydir",
+            "city": "Shahar majburiy",
+            "adress": "Manzil talab qilinadi",
+            "metro": "Metro majburiy",
+            "priceRequired": "Narx talab qilinadi",
+            "priceTypeError": "Narx raqam bo'lishi kerak",
+            "bank": "Bank majburiydir",
+            "paymentReceiptFileMin": "Chek talab qilinadi",
+            "paymentReceiptFileRequired": "Chek talab qilinadi"
+         },
+
+         "adsForm": {
+            "name": "Ism",
+            "phone": "Telefon",
+            "category": "Kategoriya",
+            "uploadPhoto": {
+               "uploadLabel": "Rasm yuklash",
+               "uploadTitle": "Rasm qo'shish",
+               "uploadDescription": "Rasm yuklash uchun bosing yoki tortib qo'ying"
+            },
+            "description": "E'lon Tavsifi",
+            "descriptionPlaceholder": "Aksiya: Premium joylashuv uchun 20% chegirma!",
+            "price": "Narx",
+            "pricePlaceholder": "Kelishilgan",
+            "metro": "Metro",
+            "address": "Manzil",
+            "button": "Yaratish"
+         },
+         "bank": {
+            "sber": "Sberbank",
+            "t": "Bank",
+            "btb": "VTB",
+            "alfa": "AlfaBank",
+            "pochta": "PochtaBank"
+         }
+      },
+      "advertising": {
+         "title": "Reklamani qo'shish",
+         "back": "Orqaga",
+         "breadcrumbs": {
+            "main": "Asosiy sahifa",
+            "currentPage": "Reklamani qo'shish"
+         },
+         "descriptions": {
+            "title1": "Banner joylash narxi: oyiga 1500 rubl",
+            "title2": "Banner ko'rinish darajasi: 50% dan yuqori",
+            "title3": "Bannerni ko'tarish imkoniyati: har 3 soatda",
+            "title4": "Birinchi o'rin ko'rinish: 99%."
+         },
+         "bankLabel": "Bank ",
+         "bankLabelPlaceholder": "Pul o'tkazilgan bankni ko'rsating",
+         "advertisingValidation": {
+            "bankError": "Iltimos, ruxsat etilgan bankni tanlang.",
+            "imageError": "Iltimos, rasmni yuklang.",
+            "imageSizeError": "Rasm 285x407 yoki 564x246 bo'lishi kerak.",
+            "receiptFileError": "Iltimos, chekni yuklab oling."
+         },
+         "uploadPhotoLabel": "Rasm yuklang",
+         "uploadPhotoTitle": "Rasm qo'shing",
+         "uploadPhotoDesc": "Rasm qo'shish uchun bosing yoki tortib o'tkazing",
+         "advertisiingBtn": "Qo'shish"
+      },
+      "createModal": {
+         "title": "Qo'shish",
+         "addBtn": "Reklama",
+         "advertisingBtn": "Reklama"
+      },
+      "profile": {
+         "name": "Ism",
+         "namePlaceholder": "Ivan",
+         "email": "Elektron pochta",
+         "emailPlaceholder": "misol@gmail.com",
+         "editBtn": "Tahrirlash",
+         "cancelBtn": "Bekor qilish",
+         "saveBtn": "Saqlash",
+         "profileValidation": {
+            "username": "Ism majburiydir",
+            "emailAddress": "Noto'g'ri elektron pochta formati",
+            "emailAddressRequired": "Elektron pochta majburiy"
+         }
+      },
+      "myAds": {
+         "label1": "Faol",
+         "label2": "Rad etildi",
+         "label3": "Mening reklamalarim",
+         "myAdsMessage": "Tanlangan yorliq uchun ma'lumotlar yo'q",
+         "delete": "Hammasini olib tashlang"
+      },
+      "modal": {
+         "title": "Siz o'chirishni xohlayotganingizga aminmisiz?",
+         "cancelBtn": "Bekor qilish",
+         "deleteBtn": "O'chirish",
+         "phone": "Telefon raqami"
+      },
+      "favorite": {
+         "title": "Tanlangan e'lonlar",
+         "back": "Orqaga",
+         "favoriteMessage": "Tanlangan reklamalar yo'q",
+         "delete": "Hammasini olib tashlang",
+         "breadcrumbs": {
+            "main": "Bosh sahifa",
+            "currentPage": "Tanlangan e'lonlar"
+         }
+      },
+      "logOut": {
+         "title": "Siz haqiqatan ham chiqishni xohlaysizmi?",
+         "cancel": "Bekor qilish",
+         "logOut": "Chiqish"
+      },
+      "categoryModal": {
+         "back": "Orqaga",
+         "subcategory": "Pastki toifani tanlang",
+         "category": "Toifani tanlang",
+         "work": "Ish",
+         "rent": "Ijara",
+         "hotel": "Mehmonxona",
+         "services": "Xizmatlar",
+         "real_estate": "Ko'chmas mulk",
+         "auto": "Avtomobillar",
+         "sell": "Sotish",
+         "subCategory": {
+            "partTime": "Yarim kunlik ish",
+            "fullTime": "To'liq vaqt",
+            "IrentRoom": "Men xonani ijaraga olaman",
+            "IrentBed": "Men to'shakni ijaraga olaman",
+            "IrentApartment": "Men kvartirani ijaraga olaman",
+            "rentRoom": "Xonani ijaraga olish",
+            "rentOffice": "Ofisni ijaraga olish",
+            "dailyRent": "Kunlik ijara",
+            "longTermRent": "Uzoq muddatli ijara",
+            "medical": "Tibbiy xizmatlar",
+            "legal": "Yuridik xizmatlar",
+            "beauty": "Go'zallik",
+            "airticket": "Aviachipta",
+            "taxiAndTrack": "Taksilar va yuk mashinalari",
+            "repair": "Ta'mirlash",
+            "different": "Boshqalar",
+            "apartment": "Kvartira",
+            "house": "Uy",
+            "partOfLand": "Uchastka",
+            "space": "Xona",
+            "saleOfCar": "Mashina sotish",
+            "rentOfCar": "Mashina ijarasi",
+            "clothes": "Kiyimlar",
+            "houseAppliances": "Maishiy texnika",
+            "electronics": "Elektronika"
+         }
+      },
+      "myPage": {
+         "profile": "Profil",
+         "myAds": "Mening e'lonlarim",
+         "back": "Orqaga"
+      },
+      "detailInfo": {
+         "breadcrumbs": {
+            "main": "Bosh sahifa",
+            "back": "Orqaga"
+         },
+         "price": "₽/oy.",
+         "phone": "Telefonni ko'rsatish",
+         "description": "Reklama tavsiflari",
+         "similar": "Tegishli e'lonlar",
+         "btn": "Ko'proq ko'ring",
+         "message": "Ma'lumotlar yo'q",
+         "hide": "Yashirish",
+         "readMore": "Ko'proq o'qing"
+      },
+      "searchMain": {
+         "breadcrumbs": {
+            "main": "Bosh sahifa"
+         },
+         "inputPlaceholder": "Sarlavha bo'yicha qidirish"
+      },
+      "recommendations": {
+         "breadcrumbs": {
+            "main": "Bosh sahifa"
+         },
+         "title": "Butun reklama"
+      }
+   },
+   "global": {
+      "searchButton": "Qidiruv",
+      "all-category": "Barcha kategoriyalar",
+      "sortCategory": {
+         "all": "Hammasi",
+         "newest": "Yangilaridan boshlab",
+         "cheapest": "Arzonlaridan boshlab",
+         "expensive": "Qimmatlaridan boshlab"
+      }
+   },
+   "signIn": {
+      "enter": "Kirish",
+      "emailRequired": "Elektron pochta majburiy",
+      "passwordRequired": "Parol talab qilinadi",
+      "email": "Elektron pochtani kiriting",
+      "password": "Parolni kiriting",
+      "forgot": " Parolni unutdingizmi?",
+      "noAccount": "Sizda hisob yo'qmi?",
+      "create": "Uni yarating",
+      "googleAuth": {
+         "btn2": "Google bilan tizimga kiring",
+         "btn1": "Avtorizatsiya...",
+         "success": "Google orqali avtorizatsiya muvaffaqiyatli!",
+         "error": "Google orqali avtorizatsiya qilishda xato:"
+      }
+   },
+   "signUp": {
+      "title": "Ro'yxatdan o'tish",
+      "enter": "Kirish",
+      "account": " Sizda hisob bormi?",
+      "name": "Ismni kiriting",
+      "email": "Elektron pochtani kiriting ",
+      "password": "Parolni kiriting ",
+      "confirmPassword": "Parolni tasdiqlang",
+      "signUpValidation": {
+         "name": "Ism kamida 2 belgidan iborat bo'lishi kerak",
+         "nameRequired": "Ism majburiydir",
+         "email": "Noto'g'ri elektron pochta",
+         "emailMatches": "Elektron pochta to'g'ri manzil bo'lishi kerak",
+         "emailRequired": "Pochta majburiy",
+         "password": "Parol kamida 6 belgidan iborat bo'lishi kerak",
+         "passwordRequired": "Parol talab qilinadi",
+         "passwordMatches": "Parol harf va raqamlardan iborat bo‘lishi kerak",
+         "confirmPassword": "Parollar mos kelishi kerak",
+         "confirmPasswordRequired": "Parollar mos kelishi kerak"
+      }
+   },
+   "forgotPassword": {
+      "title": "Parolni tiklash",
+      "label": "Pochta",
+      "placeholder": "Elektron pochtani kiriting",
+      "btn": "Kodni oling",
+      "error": "Elektron pochta majburiy"
+   },
+   "resetPassword": {
+      "title": "Parolni tiklash",
+      "label1": "Kod",
+      "label2": "Pochta",
+      "label3": "Yangi parol",
+      "label4": "Parolni tasdiqlang",
+      "placeholder1": "Kod",
+      "placeholder2": "example@gmail.com",
+      "placeholder3": "Parol",
+      "placeholder4": "Parolni tasdiqlang",
+      "btn": "Davom eting",
+      "error": "Parollar mos kelishi kerak"
+   },
+   "toast": {
+      "advertisingSuccess": "Reklama muvaffaqiyatli yaratildi! Iltimos, reklama faollashishini kuting.",
+      "signIn": {
+         "success": "Muvaffaqiyatli!",
+         "error": "Biror narsa noto'g'ri ketdi"
+      },
+      "signUp": {
+         "success": "Davom etish uchun tizimga kiring"
+      },
+      "forgot": {
+         "success": "Pochta kodi yuborildi!",
+         "error": "Biror narsa noto'g'ri ketdi"
+      },
+      "reset": {
+         "success": "Parol muvaffaqiyatli o'zgartirildi!",
+         "error": "Biror narsa noto'g'ri ketdi"
+      },
+      "profile": {
+         "success": "Muvaffaqiyatli yangilandi!"
+      },
+      "favorite": {
+         "deleteAll": "Nashrlar muvaffaqiyatli o'chirildi!",
+         "success": "Nashr sevimlilarga muvaffaqiyatli qo'shildi!",
+         "deleteSuccess": "Nashr muvaffaqiyatli o'chirildi!"
+      },
+      "publishes": {
+         "success": "Reklama muvaffaqiyatli yaratildi!"
+      }
+   }
+}

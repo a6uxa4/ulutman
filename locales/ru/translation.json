@@ -1,0 +1,493 @@
+{
+   "admin": {
+      "sideBar": {
+         "dashboard": "Статистика",
+         "users": "Пользователи",
+         "ads": "Объявления",
+         "categories": "Категории",
+         "moderation": "Модерация",
+         "analitic": "Аналитика",
+         "settings": "Настройки",
+         "logOut": "Выйти",
+         "advertising": "Реклама",
+         "mailing": "Email - рассылки",
+
+         "subLinks": {
+            "complaints": "Управление жалобами и нарушениями",
+            "comments": "Модерация комментариев и сообщений",
+            "images": "Проверка изображений и медиафайлов"
+         },
+
+         "changeLanguage": "Сменить язык"
+      },
+      "header": {
+         "inputLabel": "Поиск",
+         "select": {
+            "kg": "Кыргызский",
+            "ru": "Русский",
+            "tj": "Таджикский",
+            "uz": "Узбекский",
+            "en": "Английский",
+            "tr": "Турецкий"
+         }
+      },
+      "dashboard": {
+         "title": "Статистика",
+         "popularCategory": "Популярность категории",
+         "WORK": "Работа",
+         "RENT": "Аренда",
+         "HOTEL": "Гостиница",
+         "SERVICES": "Услуги",
+         "REAL_ESTATE": "Недвижимость",
+         "AUTO": "Авто",
+         "SELL": "Продам"
+      },
+
+      "users": {
+         "title": "Управление пользователем",
+         "table": {
+            "columns": {
+               "name": "ИМЯ",
+               "email": "ЭЛЕКТРОННЫЙ АДРЕС",
+               "role": "РОЛЬ",
+               "dateOfRegistration": "ДАТА РЕГИСТРАЦИИ",
+               "status": "СТАТУС"
+            },
+
+            "statuses": {
+               "АКТИВНЫЙ": "АКТИВНЫЙ",
+               "ЗАБЛОКИРОВАН": "ЗАБЛОКИРОВАН"
+            },
+            "roles": {
+               "USER": "Пользователь",
+               "ADMIN": "Админ"
+            }
+         }
+      }
+   },
+   "user": {
+      "layout": {
+         "header": {
+            "favorite": "Избранное",
+            "create-ad": "Опубликовать",
+            "profile": "Профиль",
+            "logOut": "Выйти",
+            "enter": "Войти",
+            "search": "Поиск",
+            "language": "Сменить язык"
+         },
+         "footer": {
+            "work": "Работа",
+            "rent": "Аренда",
+            "hotel": "Гостиница",
+            "services": "Услуги",
+            "real_estate": "Недвижимость",
+            "auto": "Авто",
+            "sell": "Продам"
+         },
+         "modalTitle": {
+            "titlePhone": "Номер телефона"
+         }
+      },
+      "home": {
+         "banner": {
+            "title": "Реклама и Услуги для Вашего Бизнеса",
+            "form": {
+               "category": "По умолчанию",
+               "search-publishes": "Поиск по названию",
+               "select-metro": "выберите метро",
+               "search-button": "Поиск",
+               "category-menu": {
+                  "all_catogory": "Все категории",
+                  "WORK": "Работа",
+                  "RENT": "Аренда",
+                  "HOTEL": "Гостиница",
+                  "SERVICES": "Услуги",
+                  "REAL_ESTATE": "Недвижимость",
+                  "AUTO": "Авто",
+                  "SELL": "Продам"
+               }
+            }
+         },
+         "categories": {
+            "WORK": "Работа",
+            "RENT": "Аренда",
+            "HOTEL": "Гостиница",
+            "SERVICES": "Услуги",
+            "REAL_ESTATE": "Недвижимость",
+            "AUTO": "Авто",
+            "SELL": "Продам"
+         },
+         "publishes": {
+            "title": "Страница объявлений",
+            "all-publishes-button": "Посмотреть еще"
+         },
+         "about": {
+            "title": "О нас",
+            "description1": "Это идеальное место для тех, кто ищет проверенные объявления о продаже или аренде жилья загородной или коммерческой недвижимости..",
+            "description2": "Мы предлагаем широкий выбор услуг и возможностей для размещения рекламы и другие необходимые сервисы. Наш сайт подойдет для всех граждан стран СНГ и ближнего зарубежья."
+         }
+      },
+      "categories": {
+         "breadcrumbs": {
+            "main": "Главная",
+            "path": {
+               "work": "Работа",
+               "rent": "Аренда",
+               "hotel": "Гостиница",
+               "services": "Услуги",
+               "real_estate": "Недвижимость",
+               "auto": "Авто",
+               "sell": "Продам"
+            }
+         },
+         "search": {
+            "inputLabel": "Поиск по названию",
+            "searchButton": "Поиск"
+         }
+      },
+      "createAds": {
+         "title": "Новое объявление",
+         "breadcrumbs": {
+            "main": "Главная",
+            "currentPage": "Новое объявление"
+         },
+         "information": {
+            "infoTitle1": "Публикации, которые запрещено размещать на сайте ULUTMAN.ru:",
+            "infoTitle2": "Стоимость размещения баннера за месяц:",
+            "infoList1": "Контент, противоречащий закону.",
+            "infoList2": "Ложная информация о товарах или услугах.",
+            "infoList3": "Нарушения авторских прав.",
+            "infoList4": " Нарушение правил может привести к удалению объявления и блокировке аккаунта.",
+            "infoList5": " Для категории Аренда: 1000 рублей.",
+            "infoList6": " Для категории Гостиница: 2000 рублей.",
+            "infoList7": " Для категории Недвижимость: 2000 рублей.",
+            "infoList8": " Видимость рекламного баннера: от 50%.",
+            "infoList9": " Возможность поднять баннер на первую позицию: каждые 24 часа."
+         },
+         "newCreateAdForm": {
+            "title": "Название",
+            "titlePlaceholder": "2х комнатная квартира",
+            "phone": "Телефон",
+            "phonePlaceholder": "+7 xxx xxxxxxx",
+            "category": "Категория",
+            "categoryButton": "Выбрать",
+            "uploadPhoto": {
+               "uploadImage": "Главное фото",
+               "uploadTitle": "Добавьте фото",
+               "uploadDescription": "Для добавления картинки щелкните или перетащите его"
+            },
+
+            "description": "Описание",
+            "descriptionPlaceholder": "Продаю iPhone 12 с объемом памяти 128GB в черном цвете. Телефон в отличном состоянии, использовался бережно и всегда носился в чехле с защитным стеклом на экране.",
+            "city": "Город",
+            "cityPlaceholder": "Выберите город",
+            "listOfCities": {
+               "city1": "Москва",
+               "city2": "Балашиха",
+               "city3": "Подольск",
+               "city4": "Химки",
+               "city5": "Королёв",
+               "city6": "Мытищи",
+               "city7": "Люберцы",
+               "city8": "Красногорск",
+               "city9": "Электросталь"
+            },
+            "metro": "Метро",
+            "metroPlaceholder": "Выберите метро",
+            "adress": "Адрес",
+            "adressPlaceholder": "Улица Крылова дом 1",
+            "price": "Цена",
+            "pricePlaceholder": "Договорная",
+            "bank": "Выберите банк",
+            "bankPlaceholder": "Нет",
+            "cheque": "Прикрепите чек",
+            "chequePlaceholder": "Нет",
+            "adButton": "Создать"
+         },
+         "validationForm": {
+            "title": "Название товара обязательна",
+            "phoneNumberRequired": "Телефон обязателен",
+            "phoneNumberMatches": "Некорректный формат телефона",
+            "category": "Категория обязательна",
+            "imagesMin": "Поле изображений должно содержать хотя бы 1 фото",
+            "imagesRequired": "Загрузите фото",
+            "description": "Описание обязательно",
+            "city": "Город обязателен",
+            "adress": "Адрес обязателен",
+            "metro": "Метро обязателен",
+            "priceRequired": "Цена обязательна",
+            "priceTypeError": "Цена должна быть числом",
+            "bank": "Банк обязателен",
+            "paymentReceiptFileMin": "Чек обязателен",
+            "paymentReceiptFileRequired": "Чек обязателен"
+         },
+
+         "adsForm": {
+            "name": "Имя",
+            "phone": "Телефон",
+            "category": "Категория",
+            "uploadPhoto": {
+               "uploadLabel": "Загрузите фото",
+               "uploadTitle": "Добавьте фото",
+               "uploadDescription": "Для добавления картинки щелкните или перетащите его"
+            },
+            "description": "Описание рассылки",
+            "descriptionPlaceholder": "Горячие акции: Скидка 20% на премиум-размещение: Разместите ваше объявление в топе и привлеките больше внимания! Предложение действует до [Дата].",
+            "price": "Цена",
+            "pricePlaceholder": "Договорная",
+            "metro": "Метро",
+            "address": "Адреc",
+            "button": "Создать"
+         },
+         "bank": {
+            "sber": "Сбербанк",
+            "t": "ТБанк",
+            "btb": "ВТБ",
+            "alfa": "АльфаБанк",
+            "pochta": "ПочтаБанк"
+         }
+      },
+      "advertising": {
+         "title": "Добавить рекламу",
+         "back": "Назад",
+         "breadcrumbs": {
+            "main": "Главная",
+            "currentPage": "Добавить рекламу"
+         },
+         "descriptions": {
+            "title1": "Стоимость размещения баннера: 1500 рублей в месяц",
+            "title2": "Видимость баннера:от 50%",
+            "title3": "Возможность поднять баннер: каждые 3 часа",
+            "title4": "Первое место видимости: 99%."
+         },
+         "bankLabel": "Банк ",
+         "bankLabelPlaceholder": "Укажите банк, на который перевели деньги",
+         "advertisingValidation": {
+            "bankError": "Пожалуйста, выберите допустимый банк.",
+            "imageError": "Пожалуйста, загрузите изображение.",
+            "imageSizeError": "Изображение должно быть размером 285x407 или 564x246.",
+            "receiptFileError": "Пожалуйста, загрузите чек."
+         },
+
+         "uploadPhotoLabel": "Загрузите фото",
+         "uploadPhotoTitle": "Добавьте фото",
+         "uploadPhotoDesc": "Для добавления картинки щелкните или перетащите его",
+         "advertisiingBtn": "Добавить"
+      },
+      "createModal": {
+         "title": "Добавить",
+         "addBtn": "Объявление",
+         "advertisingBtn": "Реклама"
+      },
+      "profile": {
+         "name": "Имя",
+         "namePlaceholder": "Иван",
+         "email": "Электронная почта",
+         "emailPlaceholder": "пример@gmail.com",
+         "editBtn": "Редактировать",
+         "cancelBtn": "Отменить",
+         "saveBtn": "Сохранить",
+         "profileValidation": {
+            "username": "Имя обязательно",
+            "emailAddress": "Неправильный формат email",
+            "emailAddressRequired": "Email обязателен"
+         }
+      },
+      "myAds": {
+         "label1": "Активно",
+         "label2": "Отклонено",
+         "label3": "Мои рекламы",
+         "myAdsMessage": "Нет данных для выбранной вкладки",
+         "delete": "Удалить все"
+      },
+      "modal": {
+         "title": "Вы уверены, что хотите удалить?",
+         "cancelBtn": "Отменить",
+         "deleteBtn": "Удалить",
+         "phone": "Номер телефона"
+      },
+      "favorite": {
+         "title": "Избранные объявления",
+         "back": "Назад",
+         "favoriteMessage": "Нет избранных объявлений",
+         "delete": "Удалить все",
+         "breadcrumbs": {
+            "main": "Главная",
+            "currentPage": "Избранные объявления"
+         }
+      },
+      "logOut": {
+         "title": "Вы действительно хотите выйти?",
+         "cancel": "Отмена",
+         "logOut": "Выйти"
+      },
+      "categoryModal": {
+         "back": "Назад",
+         "subcategory": "Выбрать подкатегорию",
+         "category": "Выбрать категорию",
+         "work": "Работа",
+         "rent": "Аренда",
+         "hotel": "Гостиница",
+         "services": "Услуги",
+         "real_estate": "Недвижимость",
+         "auto": "Авто",
+         "sell": "Продам",
+         "subCategory": {
+            "partTime": "Неполный рабочий день",
+            "fullTime": "Полный рабочий день",
+            "IrentRoom": "Я сдаю комнату",
+            "IrentBed": "Я снимаю койку",
+            "IrentApartment": "Я снимаю квартиру",
+            "rentRoom": "Снимаю комнату",
+            "rentOffice": "Снимаю офис",
+            "dailyRent": "Посуточная аренда",
+            "longTermRent": "Долгосрочная аренда",
+            "medical": "Медицинский услуги",
+            "legal": "Юридические услуги",
+            "beauty": "Красота",
+            "airticket": "Авиабилет",
+            "taxiAndTrack": "Такси и Грузовые",
+            "repair": "Ремонт",
+            "different": "Другое",
+            "apartment": "Квартира",
+            "house": "Дом",
+            "partOfLand": "Участок",
+            "space": "Помещение",
+            "saleOfCar": "Продажа машины",
+            "rentOfCar": "Аренда машин",
+            "clothes": "Одежда",
+            "houseAppliances": "Бытовая техника",
+            "electronics": "Электроника"
+         }
+      },
+      "myPage": {
+         "profile": "Профиль",
+         "myAds": "Мои объявления",
+         "back": "Назад"
+      },
+      "detailInfo": {
+         "breadcrumbs": {
+            "main": "Главная",
+            "back": "Назад"
+         },
+         "price": "₽/мес.",
+         "phone": "Показать телефон",
+         "description": "Описания объявления",
+         "similar": "Похожие объявления",
+         "btn": "Посмотреть еще",
+         "message": "Нет данных",
+         "hide": "Скрыть",
+         "readMore": "Читать дальше"
+      },
+      "searchMain": {
+         "breadcrumbs": {
+            "main": "Главная"
+         },
+         "inputPlaceholder": "Поиск по названию"
+      },
+      "recommendations": {
+         "breadcrumbs": {
+            "main": "Главная"
+         },
+         "title": "Все объявление"
+      }
+   },
+
+   "global": {
+      "searchButton": "Поиск",
+      "all-category": "Все категории",
+      "sortCategory": {
+         "all": "Все",
+         "newest": "Сначала новые",
+         "cheapest": "Сначала дешевые",
+         "expensive": "Сначала дорогие"
+      }
+   },
+   "signIn": {
+      "enter": "Войти",
+      "emailRequired": "Email обязателен",
+      "passwordRequired": "Пароль обязателен",
+      "email": "Введите email",
+      "password": "Введите пароль",
+      "forgot": " Забыли пароль?",
+      "noAccount": " У вас нету аккаунта?",
+      "create": "Создайте её",
+      "googleAuth": {
+         "btn2": "Войти с помощью Google",
+         "btn1": "Авторизация...",
+         "success": "Авторизация через Google успешно!",
+         "error": "Ошибка при авторизации через Google:"
+      }
+   },
+   "signUp": {
+      "title": "Регистрация",
+      "enter": "Войти",
+      "account": " У вас есть аккаунт?",
+      "name": "Введите имя",
+      "email": "Введите email ",
+      "password": "Введите пароль ",
+      "confirmPassword": "Подтвердите пароль",
+      "signUpValidation": {
+         "name": "Имя должно быть не короче 2 символов",
+         "nameRequired": "Имя обязательно",
+         "email": "Некорректный email",
+         "emailMatches": "Email должен быть корректным адресом",
+         "emailRequired": "Почта обязательна",
+         "password": "Пароль должен быть не короче 6 символов",
+         "passwordRequired": "Пароль обязателен",
+         "passwordMatches": "Пароль должен содержать буквы и цифры",
+         "confirmPassword": "Пароли должны совпадать",
+         "confirmPasswordRequired": "Пароли должны совпадать"
+      }
+   },
+   "forgotPassword": {
+      "title": "Сброс пароля",
+      "label": "Почта",
+      "placeholder": "Введите email",
+      "btn": "Получить код",
+      "error": "Email обязателен"
+   },
+   "resetPassword": {
+      "title": "Сброс пароля",
+      "label1": "Код",
+      "label2": "Почта",
+      "label3": "Новый пароль",
+      "label4": "Подтвердите пароль",
+      "placeholder1": "Код",
+      "placeholder2": "example@gmail.com",
+      "placeholder3": "Пароль",
+      "placeholder4": "Подтвердите пароль",
+      "btn": "Продолжить",
+      "error": "Пароли должны совпадать"
+   },
+   "toast": {
+      "advertisingSuccess": "Реклама успешно создана! Ожидайте активации рекламы.",
+      "signIn": {
+         "success": "Успешно!",
+         "error": "Что-то пошло не так"
+      },
+      "signUp": {
+         "success": "Войдите чтобы продолжить"
+      },
+      "forgot": {
+         "success": "На почту отправлен код!",
+         "error": "Что-то пошло не так"
+      },
+      "reset": {
+         "success": "Пароль успешно изменён!",
+         "error": "Что-то пошло не так"
+      },
+      "profile": {
+         "success": "Успешно обновлено!"
+      },
+      "favorite": {
+         "deleteAll": "Публикации успешно удалены!",
+         "success": "Публикация успешно добавлено в избранное!",
+         "deleteSuccess": "Публикация успешно удалено!"
+      },
+      "publishes": {
+         "success": "Объявление успешно создано!"
+      }
+   }
+}
