@@ -467,6 +467,7 @@
          "label2": "Rejected",
          "label3": "My ads",
          "myAdsMessage": "There is no data for the selected tab",
+         "boost": "Boost",
          "delete": "Delete all"
       },
       "modal": {
